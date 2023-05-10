@@ -1,0 +1,170 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+
+h1 {
+    font-family: "Indie Flower", cursive;
+    font-size: 3rem;
+}
+
+
+
+nav {
+  overflow: hidden;
+  width: 100%;
+}
+nav a {
+  float: left;
+  color: #f2f2f2;
+  transition: all 1s;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.active {
+  background-color: white;
+  color: black;
+}
+
+.carousel {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  height: 600px;
+  overflow: hidden;
+  font-family: "Indie Flower", cursive;
+}
+
+.carousel-container {
+  display: flex;
+  width: 300%;
+  transition: transform 0.5s ease;
+}
+
+.carousel-text {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 10px;
+  position: relative;
+  bottom: -500px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.carousel-slide {
+  flex: 1;
+  height: 100%;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-prev,
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.carousel-prev {
+  left: 0;
+}
+
+.carousel-next {
+  right: 0;
+}
+
+
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 40px 20px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 20px;
+}
+
+.menu-item {
+	background-color: #fff;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+
+.menu-item img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.menu-item h3 {
+	font-size: 24px;
+	font-weight: 700;
+	color: #333;
+	padding: 10px 20px;
+}
+
+.menu-item p {
+	font-size: 16px;
+	color: #666;
+	padding: 0 20px 20px;
+	line-height: 1.5;
+}
+
+
+//Contact
+
+CSS Code:
+
+css
+Copy code
+.contact {
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 600px;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact-item i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #333;
+}
+
+.contact-item p {
+  font-size: 20px;
+  color: #555;
+  margin: 0;
+}
